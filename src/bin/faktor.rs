@@ -18,18 +18,6 @@ where
 }
 
 fn main() {
-    let _ = read_vec::<i32>();
-    let mut input = read_vec::<i32>();
-    let mut greatest = 0;
-    input.sort();
-    input.reverse();
-    for (ind, val) in input.iter().enumerate() {
-        let sum = ind as i32 + val;
-        if sum > greatest {
-            greatest = sum;
-        }
-
-    }
-    println!("{}", greatest + 2);
-
+    let input = read_vec::<i32>();
+    println!("{}", (input[0]*(input[1]-1))+1);
 }

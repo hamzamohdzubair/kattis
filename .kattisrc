@@ -1,0 +1,9 @@
+[user]
+username: hamzamohdzubair
+token: e0cdd21fcc6fc64d15b67548f1268c2e3726b7521a244c167128427c080610e1
+
+[kattis]
+hostname: open.kattis.com
+loginurl: https://open.kattis.com/login
+submissionurl: https://open.kattis.com/submit
+submissionsurl: https://open.kattis.com/submissions
