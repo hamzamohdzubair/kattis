@@ -13,4 +13,5 @@ fn main() {
     let input = mod_read::read_line::<String>();
     println!("{} {} {}", input, input, input);
 
+
 }
